@@ -4,7 +4,10 @@ It prints PacMan, PacMan eating a ghost, and the four ghosts at ramdom times and
 ## Note from jmshearer (dad)
 This displays animated PacMan figures on a string of 50 WS2811 LED's ("NeoPixel") arranged in the following order:
 
-        0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 --\
+            
+     /---  330 ohm resistor --- Arduino Pin 9
+     |
+     \- 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 --\
     /-- 13 < 12 < 11 < 10 < 9 <- 8 <- 7 <-/
     \-> 14 > 15 > 16 > 17 > 18 > 19 > 20 --\
     /-- 27 < 26 < 25 < 24 < 23 < 22 < 21 <-/

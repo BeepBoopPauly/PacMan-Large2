@@ -92,11 +92,8 @@ static const CRGB PROGMEM
 // Define the array of leds
 CRGB leds[NUM_LEDS];
 
-void setup() {     
-  Serial.begin(9600);
-  Serial.println("ISSI manual animation test");
-     FastLED.addLeds<WS2811, DATA_PIN, RGB>(leds, NUM_LEDS);   
-
+void setup() {       
+  FastLED.addLeds<WS2811, DATA_PIN, RGB>(leds, NUM_LEDS);   
   randomSeed(analogRead(0));  
 }
 

@@ -16,4 +16,4 @@ This displays animated PacMan figures on a string of 50 WS2811 LED's ("NeoPixel"
      ┏ 41 ━ 40 ━ 39 ━ 38 ━ 37 ━ 36 ━ 35 ┛
      ┗ 42 ━ 43 ━ 44 ━ 45 ━ 46 ━ 47 ━ 48 ━━━━ 49 (unused)
 
-The code is code isn't the cleanest--we were just playing around--but it is a good demo of some key concepts.
+The code is code isn't the cleanest--we were just playing around--but it is a good demo of some key concepts.  Based on [FastLED](https://fastled.io/)

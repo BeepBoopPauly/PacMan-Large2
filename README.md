@@ -1,5 +1,5 @@
 # PacMan-Large2
-It prints PacMan, PacMan eating a ghost, and the four ghosts at ramdom times and they never repet themselves.
+It prints PacMan, PacMan eating a ghost, and the four ghosts at random times and they never repet themselves.
 
 ![pacman](https://user-images.githubusercontent.com/22283815/217530110-a6474737-0ac5-4f5e-b5b6-589a49f50f75.gif)
 
